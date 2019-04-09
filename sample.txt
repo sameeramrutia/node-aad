@@ -1,0 +1,83 @@
+{
+  "customers": {
+    "msci_customer_1": {
+      id: 111,
+      address: "NY USA",
+      membership: 1
+    },
+    "msci_customer_2": {
+      id: 112,
+      address: "CA USA",
+      membership: 3
+    },
+    "msci_customer_3": {
+      id: 113,
+      address: "TX USA",
+      membership: 3
+    },
+    "msci_customer_4": {
+      id: 114,
+      address: "FL USA",
+      membership: 2
+    },
+    "msci_customer_5": {
+      id: 115,
+      address: "CANADA",
+      membership: 2
+    }
+  },
+  "membership": [
+    {
+      name: "Platinum",
+      id: 1,
+      cashback: 20
+    },
+    {
+      name: "Gold",
+      id: 2,
+      cashback: 15
+    },
+    {
+      name: "Silver",
+      id: 3,
+      cashback: 12
+    },
+    {
+      name: "Basic",
+      id: 4,
+      cashback: 5
+    }
+  ],
+  "inventory": [
+    {
+      id: "1",
+      name: "controversies report",
+      desc: "this report will contain controversies of USA universe",
+      price: 20000
+    },
+    {
+      id: "2",
+      name: "GM report",
+      desc: "this report will contain GM of USA universe",
+      price: 15000
+    },
+    {
+      id: "3",
+      name: "AGR report",
+      desc: "this report will contain AGR of USA universe",
+      price: 12000
+    },
+    {
+      id: "4",
+      name: "DV report",
+      desc: "this report will contain DV of USA universe",
+      price: 2000
+    },
+    {
+      id: "5",
+      name: "CANADA controversies report",
+      desc: "this report will contain controversies of CANADA universe",
+      price: 8000
+    }
+  ]
+}
